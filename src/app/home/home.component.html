@@ -1,0 +1,10 @@
+<div>
+  <form [formGroup]="otpform" (ngSubmit)="onSubmit()">
+    <label>Enter your mobile number</label>
+    <br>
+    <input type="text" formControlName="usermobilenumber">
+    <br>
+    <button type="submit">Send OTP</button>
+    <br>
+  </form>
+</div>
